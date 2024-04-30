@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
     color: white;
-    outline: 5px solid red;
+    font-family: "Roboto";
+    
+    /* outline: 3px solid red; */
 }
 
 body {
@@ -14,7 +16,7 @@ header {
     height: 33vh;
 }
 
-.topelements {
+.hero.top {
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -26,6 +28,45 @@ header {
     height: 40px;
 }
 
+ul {
+    display: flex;
+    gap: 25px;
+}
+
 a {
     text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
+
+.hero.main {
+    display: flex;  
+    justify-content: center;
+    padding: 25px;
+    gap: 50px;
+}
+
+.hero.text {
+    width: 400px;
+    padding-right: 170px;
+    margin-right: 130px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.hero.subtext {
+    color: lightgray;
+}
+    
+button {
+    height: 25px;
+    width: 100px;
+    background-color: #3882F6;
+    border: 0;
+    border-radius:8px 8px ;
+
+}
+
+    
+    
