@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    outline: 5px solid red;
+}
+
+body {
+    height: 100vh;
+}
+header {
+    background-color: #1F2937;
+    height: 33vh;
+}
+
+.topelements {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 200px;
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+}
