@@ -12,24 +12,27 @@ body {
 }
 header {
     background-color: #1F2937;
-    height: 33vh;
+    height: 40vh;
 }
 
 .hero.top {
     display: flex;
     justify-content:space-around;
     align-items: center;
+    padding: 30px;
     
 }
 
 .logo {
     width: 200px;
     height: 40px;
+    padding-left: 70px;
 }
 
 ul {
     display: flex;
     gap: 25px;
+    padding-right:68px;
 }
 
 a {
@@ -41,16 +44,21 @@ a {
 .hero.main {
     display: flex;  
     justify-content: center;
-    padding: 25px;
+    padding: 30px;
     gap: 50px;
 }
 
+h1 {
+    font-size: 48px;
+    line-height: 40px;
+}
+
+
 .hero.text {
     width: 400px;
-    padding-right: 170px;
-    margin-right: 130px;
+   
     display: flex;
-    gap: 10px;
+    gap: 15px;
     flex-direction: column;
     color: white;
 }
@@ -59,6 +67,8 @@ a {
 
 .hero.subtext {
     color: lightgray;
+    font-size: 24 px;
+    padding: 0px;
 }
     
 button {
@@ -72,7 +82,7 @@ button {
 }
 
 .sectiontwo {
-    height: 25vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,20 +97,51 @@ h2 {
 
 .cards {
     display: flex;
-    padding: 45px;    
-    width: 60px;
+    padding-top: 40px;   
+    width: 800px;
     font-size: 10px;
     gap: 50px;
     justify-content: center;
     color: hsl(0, 0%, 35%);
     
 }
+h5 {
+    width: 155px;
+    font-size: 10px;
+    padding-left: 8px;
+}
+.card.four.text {
+    padding-left: 20px;
+}
 
 .cardimage {
 
-height: 100px;
-width: 100px;
+height: 150px;
+width: 150px;
 border-radius: 8px 8px;
 border:2px solid  #3882F6;
 }
-    
+
+.sectionthree {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    background-color:#E5E7EB ;
+    justify-content: center;
+    align-items: center;
+}    
+
+.quote  {
+    font-size: 26px;
+    font-style: italic;
+    color: #1F2937;
+    width: 600px;
+    font-weight: 300;
+}
+
+.author {
+    align-self: center;
+    padding-top: 10px;
+    font-weight: bold;
+    margin-left: 170px;
+}
