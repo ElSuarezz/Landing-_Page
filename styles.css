@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: white;
     font-family: "Roboto";
     
     /* outline: 3px solid red; */
@@ -53,7 +52,10 @@ a {
     display: flex;
     gap: 10px;
     flex-direction: column;
+    color: white;
 }
+
+
 
 .hero.subtext {
     color: lightgray;
@@ -65,8 +67,40 @@ button {
     background-color: #3882F6;
     border: 0;
     border-radius:8px 8px ;
+    color: white;
 
 }
 
+.sectiontwo {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;    
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
+.cards {
+    display: flex;
+    padding: 45px;    
+    width: 60px;
+    font-size: 10px;
+    gap: 50px;
+    justify-content: center;
+    color: hsl(0, 0%, 35%);
     
+}
+
+.cardimage {
+
+height: 100px;
+width: 100px;
+border-radius: 8px 8px;
+border:2px solid  #3882F6;
+}
     
